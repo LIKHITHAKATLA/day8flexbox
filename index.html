@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .card1{
+            width: 25%;
+            height: 160px;
+            padding: 10px;
+             box-shadow: 0px 0px 10px 0.5px black; 
+        }
+        .maincontainer{
+           
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin: 30px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .image{
+            display: flex;
+            flex-direction: row;
+            height: 70px;
+            width: 100%;
+            margin-right: 20px;
+        }
+        .container1{
+            display: flex;
+            flex-direction: row;
+        }
+        .container2{
+            display: flex;
+            flex-direction: column;
+        }
+        .heading{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .service{
+            color: darkgray;
+        }
+        .star{
+            color: green;
+        }
+        .description{
+            font-weight: bold;
+            padding-top: 5px;
+        }
+        .container3{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="card1">
+            <div class="container">
+            <div class="container1">
+            <img class="image" src="images/stripe.png" alt="stripe">
+            </div>
+            <div class="container2">
+            <div class="heading">Stripe</div>
+            <div class="service">Payment Services</div>
+            <div class="star"> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>     
+            </div>
+            </div>
+            </div>
+            <div class="description">Get more context on your users with stripe data inside our platform.</div>
+            <div class="container3">
+                <div>installed 72 times</div>
+                <div><a href="#">view>></a></div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="container">
+            <div class="container1">
+            <img class="image" src="images/mailchimp.jpg" alt="mailchimp">
+            </div>
+            <div class="container2">
+            <div class="heading">Mailchimp</div>
+            <div class="service">Project Management</div>
+            <div class="star"> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>     
+            </div>
+            </div>
+            </div>
+            <div class="description">Capture and sync subscribes rom your mailchimp platform to ours with ease.</div>
+            <div class="container3">
+                <div>installed 172 times</div>
+                <div><a href="#">view>></a></div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container">
+            <div class="container1">
+            <img class="image" src="images/dropbox.png" alt="dropbox">
+            </div>
+            <div class="container2">
+            <div class="heading">Dropbox</div>
+            <div class="service">File Management</div>
+            <div class="star"> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>     
+            </div>
+            </div>
+            </div>
+            <div class="description">Use dropbox to sync your photos to our platform and share it with others.</div>
+            <div class="container3">
+                <div>installed 712 times</div>
+                <div><a href="#">view>></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="maincontainer">
+        <div class="card1">
+            <div class="container">
+            <div class="container1">
+            <img class="image" src="images/shopify.png" alt="Shopify">
+            </div>
+            <div class="container2">
+            <div class="heading">Shopify</div>
+            <div class="service">Ecommerce</div>
+            <div class="star"> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>     
+            </div>
+            </div>
+            </div>
+            <div class="description">Sell your items with ease with having any website with our free platform.</div>
+            <div class="container3">
+                <div>installed 721 times</div>
+                <div><a href="#">view>></a></div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container">
+            <div class="container1">
+            <img class="image" src="images/atlsiian.png" alt="Atlassian">
+            </div>
+            <div class="container2">
+            <div class="heading">Atlassian</div>
+            <div class="service">Project Management</div>
+            <div class="star"> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>     
+            </div>
+            </div>
+            </div>
+            <div class="description">Developing products for developers ,project managers and architects.</div>
+            <div class="container3">
+                <div>installed 702 times</div>
+                <div><a href="#">view>></a></div>
+            </div>
+        </div>
+        <div class="card1">
+            <div class="container">
+            <div class="container1">
+            <img class="image" src="images/salesforce.jpg" alt="Salceforce">
+            </div>
+            <div class="container2">
+            <div class="heading">Salceforce</div>
+            <div class="service">Project Management</div>
+            <div class="star"> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>     
+            </div>
+            </div>
+            </div>
+            <div class="description">Developing products for developers ,project managers and architects.</div>
+            <div class="container3">
+                <div>installed 722 times</div>
+                <div><a href="#">view>></a></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
